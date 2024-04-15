@@ -8,7 +8,7 @@
 
 ## Netfilter、网卡和用户进程之间的关系
 
-![netfilter、网卡、用户进程之间关系](_images/k8s/iptables/netfilter、网卡、用户进程之间关系.jpg)
+![netfilter、网卡、用户进程之间关系](../_images/k8s/iptables/netfilter、网卡、用户进程之间关系.jpg)
 
 
 
@@ -16,8 +16,7 @@
 
 ## “检查点”的工作原理
 
-[//]: # (![检查点工作原理-draw]&#40;_images/k8s/iptables/iptables/检查点工作原理-draw.jpg&#41;)
-![检查点工作原理-draw](_images/k8s/iptables/检查点工作原理-draw.jpg)
+![检查点工作原理-draw](../_images/k8s/iptables/检查点工作原理-draw.jpg)
 
 可以看到，当一个IP包通过网卡进人主机之后’它就进人了NetFilter定义的流入路径（inputpath）中。在这条路径中，IP包要经过路由表路由来决定下—步的去向。而在这次路由之前,NetFilter设置了—个名叫PREROUTING的“检查点”。在Linux内核的实现里’所谓”检查点”实际上就是内核网络协议栈代码里的Hook（比如,在执行路由判断的代码之前,内核会先调用PREROUTING的Hook）。
 
@@ -39,7 +38,7 @@
 
 ## 数据包在Linux Netfilter 子系统里完成的流动过程
 
-![iptables](_images/k8s/iptables/iptables.jpg)
+![iptables](../_images/k8s/iptables/iptables.jpg)
 
 
 
@@ -86,7 +85,7 @@ raw表用于处理异常，有如下两个内置链：
 
 
 
-![iptables命令](_images/k8s/iptables/iptables命令.jpg)
+![iptables命令](../_images/k8s/iptables/iptables命令.jpg)
 
 
 
