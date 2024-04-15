@@ -1,12 +1,27 @@
-![logo](_media/icon.svg)
+[//]: # (> A magical documentation site generator.)
 
-# docsify <small>4.13.0</small>
 
-> A magical documentation site generator.
+```
+_..._
+      .'     '.     _
+     /    .-""-\   _/ \
+   .-|   /:.   |  |   |
+   |  \  |:.   /.-'-./
+   | .-'-;:__.'    =/
+   .'=  *=|NASA _.='
+  /   _.  |    ;
+ ;-.-'|    \   |
+/   | \    _\  _\
+\__/'._;.  ==' ==\
+         \    \   |
+         /    /   /
+         /-._/-._/
+  zyh    \   `\  \
+          `-._/._/
+```
 
-- Simple and lightweight
-- No statically built html files
-- Multiple themes
+- 🎶 Good afternoon
+- 🏀 Good evening
+- 🏔️ Goog night
 
-[GitHub](https://github.com/docsifyjs/docsify/)
-[Getting Started](#docsify)
+[Welcome](#docsify)
